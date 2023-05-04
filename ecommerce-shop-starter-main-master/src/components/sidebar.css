@@ -1,0 +1,36 @@
+/* Add some margin and padding to the container */
+.flex-col {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Use a different border color and style */
+  .border-b {
+    border-color: #333;
+    border-style: solid;
+  }
+  
+  /* Add some hover effects to the links */
+  .link {
+    transition: all 0.3s ease;
+  }
+  
+  .link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Change the font size and color of the total */
+  .font-semibold {
+    font-size: 20px;
+    color: #00a;
+  }
+  
+  /* Change the background color and border radius of the trash icon */
+  .bg-red-500 {
+    background-color: #f00;
+    border-radius: 50%;
+  }
+  .flex-col {
+    text-align: center;
+  }
